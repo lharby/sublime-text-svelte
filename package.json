@@ -1,0 +1,29 @@
+{
+  "name": "sublime-text",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-image": "^3.0.2",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-replace": "^5.0.2",
+    "dotenv": "^16.3.1",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-reactive-preprocessor": "^0.8.3"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.68.0",
+    "sirv-cli": "^1.0.0",
+    "svelte-preprocess": "^5.0.4"
+  }
+}

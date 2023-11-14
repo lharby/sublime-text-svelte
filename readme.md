@@ -1,3 +1,3 @@
-# A super simple lightweight site built only using HTML and CSS
+# App with a Sublime Text skin
 
-- Credit: https://john-doe.neocities.org/
+### currently in Svelte
