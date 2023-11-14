@@ -38,9 +38,14 @@
         {/each}
     </ul>
     <ul class="side-nav">
-        {#each nav as item}
-            <SideNav path={item.path} label={item.label} on:click={handleSideNav}/>        
-        {/each}
+        <li>App
+            <ul>
+                {#each nav as item}
+                    <SideNav path={item.path} label={item.label} on:click={handleSideNav}/>        
+                {/each}
+            </ul>
+        </li>
+       
     </ul>
 </main>
 
@@ -89,9 +94,16 @@
     }
 
     .side-nav {
+        color: $colour__black;
         background-color: gainsboro;
         height: 100%;
         width: 25%;
+        font-family: sans-serif;
+
+        ul {
+            margin: 0 0 0 1.5rem;
+            padding: unset;
+        }
     }
 
 </style>

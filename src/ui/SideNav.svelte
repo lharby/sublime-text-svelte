@@ -9,7 +9,6 @@
     @import '../scss/variables.scss';
 
     a {
-        font-family: sans-serif;
         color: $colour__black;
         text-decoration: none;
     }

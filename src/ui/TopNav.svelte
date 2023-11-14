@@ -3,7 +3,7 @@
     export let label;
 </script>
 
-<li><a href={path} on:click>{label}</a></li>
+<li><a href={path} on:click>{label}<span>x</span></a></li>
 
 <style lang="scss">
     @import '../scss/variables.scss';
