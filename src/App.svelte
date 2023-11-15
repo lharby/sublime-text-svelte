@@ -32,11 +32,6 @@
 </script>
 
 <main>
-    <ul class="top-nav">
-        {#each nav as item}
-            <TopNav path={item.path} label={item.label} on:click={handleSideNav} />
-        {/each}
-    </ul>
     <ul class="side-nav">
         <li>App
             <ul>
@@ -45,7 +40,11 @@
                 {/each}
             </ul>
         </li>
-       
+    </ul>
+    <ul class="top-nav">
+        {#each nav as item}
+            <TopNav path={item.path} label={item.label} on:click={handleSideNav} />
+        {/each}
     </ul>
 </main>
 
@@ -79,6 +78,7 @@
     }
 
     main {
+        display: flex;
         position: fixed;
         top: 15%;
         right: 10%;
